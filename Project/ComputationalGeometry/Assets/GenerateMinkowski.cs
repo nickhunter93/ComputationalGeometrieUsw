@@ -58,11 +58,6 @@ public class GenerateMinkowski : MonoBehaviour
         minkowObject.transform.position = transform.position;
 
         minkowObject.tag = "Agent";
-
-        /*var test = minkowObject.AddComponent<Test>();
-        test.Target = GameObject.FindGameObjectWithTag("Finish").transform;
-        test.Source = GameObject.FindGameObjectWithTag("Player").transform;
-        */
     }
 
     private void Preparation()
