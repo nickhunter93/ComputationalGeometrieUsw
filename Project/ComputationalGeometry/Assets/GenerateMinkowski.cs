@@ -6,6 +6,7 @@ using UnityEngine;
 public class GenerateMinkowski : MonoBehaviour
 {
     private List<Vector3> _verticiesList;
+    //check for the update to make sure it is only done once
     private bool once = true;
     // Start is called before the first frame update
     void Start()
