@@ -5,16 +5,15 @@ using UnityEngine;
 /// <summary>
 /// The Follower.
 /// </summary>
-[ExecuteInEditMode]
 public class Follower : MonoBehaviour
 {
 
 	[SerializeField]
-	protected Graph m_Graph;
+	public Graph m_Graph;
 	[SerializeField]
-	protected Node m_Start;
+	public Node m_Start;
 	[SerializeField]
-	protected Node m_End;
+	public Node m_End;
 	[SerializeField]
 	protected float m_Speed = 0.01f;
 	protected Path m_Path = new Path ();

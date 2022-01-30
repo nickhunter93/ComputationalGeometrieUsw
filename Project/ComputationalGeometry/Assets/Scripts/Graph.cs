@@ -14,7 +14,7 @@ public class Graph : MonoBehaviour
 	/// The nodes.
 	/// </summary>
 	[SerializeField]
-	protected List<Node> m_Nodes = new List<Node> ();
+	public List<Node> m_Nodes = new List<Node> ();
 
 	/// <summary>
 	/// Gets the nodes.

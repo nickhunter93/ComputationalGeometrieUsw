@@ -55,7 +55,7 @@ public class GraphEditor : Editor
 
 	public override void OnInspectorGUI ()
 	{
-		m_Graph.nodes.Clear ();
+		m_Graph.m_Nodes.Clear();
 		foreach ( Transform child in m_Graph.transform )
 		{
 			Node node = child.GetComponent<Node> ();
